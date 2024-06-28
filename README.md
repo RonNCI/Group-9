@@ -11,8 +11,8 @@ JetBird and gain access to the booking system. Everyone in the group has worked 
 --How to install--
 You will need to install the required tools in order to run this project.
 
->Netbeans
->Xampp
+>-Netbeans
+>-Xampp
       
 Install all tools before downloading the code files.
 <Xampp>
