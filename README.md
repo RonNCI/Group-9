@@ -10,4 +10,4 @@ JetBird and gain access to the booking system. Everyone in the group has worked 
 
 
 --How to install--
-Install Netbeans and Xampp. Then install the code files. Open netbeans and create a new PHP project called JetBirdApp(leave everything default). Move all php and css files into the project(dont move the sql file). Open Xampp and enable Apache and MySQL. Open your preferred web browser and in the url address bar, type in "localhost/phpmyadmin". Then select the "import" to import the book_db database. Then in the Netbeans, right click the "index.php" file and click "run file". JetBird is under construction so it is
+Install Netbeans and Xampp. Then install the code files. Open netbeans and create a new PHP project called JetBirdApp(leave everything default). Move all php and css files, including the images folder into the project(dont move the sql file). Open Xampp and enable Apache and MySQL. Open your preferred web browser and in the url address bar, type in "localhost/phpmyadmin". Then select the "import" to import the book_db database. Then in the Netbeans, right click the "index.php" file and click "run file". JetBird is under construction so it is
