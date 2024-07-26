@@ -93,7 +93,16 @@ INSERT INTO `jetbirduser` (`userID`, `fullName`, `email`, `password`) VALUES
 --
 -- Indexes for dumped tables
 --
-
+--
+--Payment details
+--
+CREATE TABLE payments (
+    full_name VARCHAR(255),
+    card_number CHAR(16),
+    expiry_date CHAR(5),
+    cvv CHAR(3),
+    date_created DATETIME DEFAULT CURRENT_TIMESTAMP
+);
 --
 -- Indexes for table `book_form`
 --
