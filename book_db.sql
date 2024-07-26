@@ -102,7 +102,7 @@ CREATE TABLE payments (
     expiry_date CHAR(5),
     cvv CHAR(3),
     date_created DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+)ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 --
 -- Indexes for table `book_form`
 --
