@@ -16,10 +16,15 @@
             $cardnumber = $_POST['cardNumber'];
             $expirydate = $_POST['expiry'];
             $cvv = $_POST['cvv'];
-
-            $sqlRequest = "INSERT INTO book_form (name, email, phone, address, location, guests, arrivals, leaving) VALUES ('$nameJB', '$emailJB', '$phoneJB', '$addressJB', '$locationJB', '$guestsJB', '$arrivalsJB', '$leavingJB')";
-
+            
+            if (empty($fullName) || empty($cardNumber) || empty($expiryDate) || empty($cvv)) {
+                echo "Please fill all fields.";
+            } else {
+        
+            $sqlRequest = "INSERT INTO payments (full_name, card_number, expiry_date, cvv)
+                
             mysqli_query($connection, $sqlRequest);// connects to db
+            
             if ($conn->query($sql) === TRUE) {
                 echo "successfully";
             } else {
